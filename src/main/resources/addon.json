@@ -1,0 +1,10 @@
+{
+  "name": "Example Addon",
+  "description": "A LabyMod 3 1.8.9 addon with Mixin support",
+  "author": "L3g7",
+  "icon": "https://spongepowered.org/assets/img/icons/spongie-mark.png",
+
+  "uuid": "%uuid%",
+  "mainClass": "com.example.addon.ExampleAddon",
+  "transformerClass": "com.example.addon.mixin.MixinLoader"
+}
