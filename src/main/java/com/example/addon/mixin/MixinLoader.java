@@ -20,7 +20,7 @@ public class MixinLoader implements IClassTransformer {
 	private static final String MIXIN_CONFIG = "example_addon.mixins.json";
 
 	public MixinLoader() throws ReflectiveOperationException, IOException {
-		File mixinLibrary = new File("libraries/org/spongepowered/mixin/0.7.11/mixin-0.7.11.jar");
+		File mixinLibrary = new File(Launch.assetsDir, "../libraries/org/spongepowered/mixin/0.7.11/mixin-0.7.11.jar");
 		if (!mixinLibrary.exists()) {
 			// Download library
 			mixinLibrary.getParentFile().mkdirs();
