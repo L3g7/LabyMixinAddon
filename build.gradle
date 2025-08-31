@@ -43,3 +43,7 @@ minecraft {
 // Java
 sourceCompatibility = targetCompatibility = 1.8
 compileJava.options.encoding = "UTF-8"
+
+// Hotfix for bug in ForgeGradle (runClient only depends on apiClasses, not classes)
+sourceSets.api.java.srcDirs = sourceSets.main.java.srcDirs
+sourceSets.api.resources.srcDirs = sourceSets.main.resources.srcDirs
