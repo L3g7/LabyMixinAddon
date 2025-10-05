@@ -6,7 +6,7 @@
 - run `gradlew setupDecompWorkspace`
 - run `gradlew idea`
 - run `gradlew genIntellijRuns`
-- open the project in IntelliJ IDEA
+- open the generated `.ipr` file in IntelliJ IDEA
 - The [Minecraft Dev](https://mcdev.io/) IntellJ plugin is recommended, but not required
 
 ### Configuration 
