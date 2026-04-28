@@ -1,3 +1,5 @@
+###### This template is also available for [Forge](https://github.com/L3g7/ForgeMixin).
+
 ### Why use this template?
 - Gradle 6.9.1 for faster building
 - Mixin support
